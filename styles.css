@@ -20,7 +20,7 @@ h1 {
 }
 
 .book > div {
-	background-color: rgb(46, 204, 113);
+	background-color:  #f8f8f8;
 	margin-right: 10px;
 	padding: 20px;
 	flex: 1;
@@ -38,8 +38,9 @@ img {
 
 p {
 	text-align: center;
-	color: #777777;
+	color:white;
 	margin-top: 10px;
+	background-color:#2ecc71;
 }
 
 span {
