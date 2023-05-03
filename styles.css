@@ -1,27 +1,47 @@
 /*  your css code here. If applicable */
-body{
-	background-color:#ffffff;
+body {
+	background-color: #ffffff;
 }
-div{
-	background-color:#f8f8f8;
-	margin:30px;
+
+.book-library {
+	margin: 30px;
 }
-h1{
-	text-align:center;
-	background-color:#f8f8f8;
-	padding:20px;
-	margin-bottom:20px;
+
+h1 {
+	text-align: center;
+	background-color: #f8f8f8;
+	padding: 20px;
+	margin-bottom: 20px;
 }
-img{
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
+
+.book {
+	display: flex;
+	justify-content: space-between;
 }
-p{
-	text-align:center;
-	background-color:#2ecc71;
-	padding:10px;
+
+.book > div {
+	background-color: rgb(46, 204, 113);
+	margin-right: 10px;
+	padding: 20px;
+	flex: 1;
 }
-span{
-	color:#777777;
+
+.book > div:last-child {
+	margin-right: 0;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+p {
+	text-align: center;
+	color: #777777;
+	margin-top: 10px;
+}
+
+span {
+	color: #777777;
 }
